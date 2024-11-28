@@ -1,0 +1,59 @@
+.ball{
+    height: 30px;
+    width: 30px;
+    background-color: cadetblue;
+    border-radius: 50%;
+    animation-name: falling-hearts;
+    animation-duration: 2s;
+    animation-timing-function:ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+    
+}
+.ball:hover{
+    transform: scale(1.5);
+}
+.ball1{
+    animation-delay: 0.1s;
+}
+.ball2{
+    animation-delay: 0.2s;
+}
+.ball3{
+    animation-delay: 0.3s;
+}
+.ball4{
+    animation-delay: 0.4s;
+}
+.ball5{
+    animation-delay: 0.5s;
+}
+.ball6{
+    animation-delay: 0.6s;
+}
+.ball7{
+    animation-delay: 0.7s;
+}
+.ball8{
+    animation-delay: 0.8s;
+}
+.ball9{
+    animation-delay: 0.9s;
+}
+.ball10{
+    animation-delay: 1s;
+}
+.con{
+    display: flex;
+    gap: 20px;
+    height: 100vh;
+}
+@keyframes falling-hearts {
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 80%;
+    }
+}

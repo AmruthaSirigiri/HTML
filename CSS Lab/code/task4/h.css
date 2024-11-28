@@ -1,0 +1,37 @@
+.div1{
+    border: 1px solid white;
+    background-color: rgb(11, 129, 147);
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    height: 150px;
+    width: 250px;
+    font-size: 1.5em;
+}
+.div2{
+    border: 1px solid white;
+    background-color: rgb(255, 164, 108);
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    width: 40em;
+    display: flex;
+    justify-content: center;
+    margin-left: 15em;
+    font-size: 1.5em;
+}
+.div3{
+    background-color: rgb(72, 46, 125);
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    margin: 3em;
+    padding: 20px;
+    width: auto;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}

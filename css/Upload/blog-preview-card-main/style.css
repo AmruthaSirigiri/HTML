@@ -1,0 +1,89 @@
+/* Basic colors */
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: #ffffff;
+    --gray: #6e6e6e;
+    --black: #000000;
+  }
+  
+  /* Reset margin and font */
+  * {
+    margin: 0;
+  }
+  
+  body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Card styles */
+  .card {
+    background-color: var(--white);
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px var(--black);
+    text-align: center;
+  }
+  
+  /* Image with rounded corners */
+  .card img {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+  }
+  
+  /* Category tag */
+  .tag {
+    display: flex;
+    justify-content: start;
+    background-color: hsl(47, 88%, 63%);
+    color: var(--black);
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Title and summary */
+  .post-title {
+    font-size: 18px;
+    color: var(--yellow);
+    margin: 10px 0;
+  }
+  
+  .post-summary {
+    font-size: 14px;
+    color: var(--gray);
+    margin-bottom: 20px;
+  }
+  
+  /* Footer with author info */
+  .card-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .author-icon {
+    width: 10px;
+    border-radius: 50%;
+    
+  }
+  
+  .post-author {
+    font-weight: bold;
+    color: var(--black);
+  }
+
+  .content{
+    text-align: left;
+  }
+  .date{
+    font-size: 12px;
+  }

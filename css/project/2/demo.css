@@ -1,0 +1,19 @@
+#myDemo{
+    height: 100vh;
+}
+#para1{
+    height:25%;
+    background-color: pink;
+}
+#para2{
+    height: 25%;
+    background-color: purple;
+}
+#para3{
+    height: 25%;
+    background-color: rgb(244, 10, 49);   
+}
+#para4{
+    height: 25%;
+    background-color: rgb(16, 8, 16);
+}

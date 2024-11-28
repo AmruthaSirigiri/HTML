@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="main.java">
+        <label for="us">User Name: </label>
+        <input type="text" name="us" id="us" required> <br><br>
+        <label for="email">Email id: </label>
+        <input type="email" name="email" id="email" required><br><br>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" minlength="6" maxlength="12" required><br><br>
+        <label>Gender: </label>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="male">Female</label><br><br>
+        <label for="">Select Language: </label>
+        <input type="checkbox" name="lang" id="en">
+        <label for="en">English</label>
+        <input type="checkbox" name="lang" id="hi">
+        <label for="hi">Hindi</label>
+        <input type="checkbox" name="lang" id="tel">
+        <label for="tel">Telugu</label> <br><br>
+        <select name="hobbies">
+            <option value="sports">Sports</option>
+            <option value="music">Music</option>
+            <option value="dance">Dance</option>  
+            <option value="books">Books</option>   
+            <option value="singing">Singing</option>   
+            <option value="reading">Reading</option> 
+        </select>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

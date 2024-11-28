@@ -1,0 +1,29 @@
+.div1{
+    margin: 50px;
+    border: 2px solid green ;
+}
+.div2{
+    padding: 50px;
+    border: 2px solid green;
+}
+.div3{
+    border: 10px;
+    height: 130px;
+    width: 450px;
+    background-color: aquamarine;
+}
+.div4{
+    border: dashed black;
+    border-width: 3px;
+}
+.div5{
+    border: dashed red ;
+    border-width: 2px;
+}
+.div6{
+    border: 5px solid yellow;
+}
+.div7{
+    border: ridge pink;
+    border-width: 5px;
+}

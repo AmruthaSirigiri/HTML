@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+} 
+.box{
+    border: 2px solid lightblue;
+    background-color: lightblue;
+    color: white;
+    height: 250px;
+    width: 300px;
+    border-radius: 8px;
+}
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.box1{
+    box-shadow: 2px 2px 5px gainsboro;
+}
+.box2{
+    box-shadow: 2px 2px 6px gray;
+}

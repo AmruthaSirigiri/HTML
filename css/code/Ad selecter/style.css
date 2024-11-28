@@ -1,0 +1,72 @@
+/* .myDiv>h1{ 
+    background-color: red;
+} */
+/* .myDiv h1{ 
+    background-color: red;
+} */
+/* h1+p{ [adjacent sibling]
+    background-color: red;
+} */
+/* general sibling*/
+ /* h1~p {
+    background-color: red;
+ } */
+
+/* Pseudo selectors */
+/* Pseudo selectors select the elements based on state of the element or position of the elements */
+/* .myDiv3{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+.myDiv3:hover{
+    background-color: green;
+    border-radius: 50%;
+} */
+/* a:link{
+    color:  brown;
+} */
+ /* a:active{
+    color: yellow;
+ }
+ a:visited{
+    color: bisque;
+ }
+ input:enabled{
+    background-color: orange;
+ } */
+ /* input[type="text"]{
+    background-color: yellowgreen;
+}
+p:not(.para){
+    color: purple;
+} */
+ .child{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+ }
+/* .child:first-child{
+    background-color: red;
+}
+.child:last-child{
+    background-color: red;
+} */
+/* .child:nth-child(3),.child:nth-child(5){
+    background-color: red;
+} */
+/* .child:nth-child(even){
+    background-color: red;
+} */
+/* .child:nth-child(odd){
+    background-color: red;
+} */
+/* .child:nth-last-child(odd){
+    background-color: red;
+} */
+ p.child:nth-of-type(1){
+    background-color: red;
+ }
+ p.child:nth-last-of-type(1){
+    background-color: red;
+ }

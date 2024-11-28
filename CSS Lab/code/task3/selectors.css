@@ -1,0 +1,57 @@
+.div1>p{
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+.div1>p::first-letter{
+    color: red;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.div1>h2{
+    color: brown;
+}
+.div2>p::before{
+    content: 'Start of Div:';
+    color: brown;
+}
+.div2>p::after{
+    content: '- End of Div';
+    color: brown;
+}
+.div2>p{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(142, 240, 150);
+    box-sizing: border-box;
+}
+span::before{
+    content: 'Span: ';
+    color: orange;
+}
+span::after{
+    content: 'This is a span styled using an element selector.';
+    color: blue;
+}
+span{
+    border: 1px solid black;
+    padding: 10px;
+    color: blue;
+    font-weight: bolder;
+}
+.div3>p::before{
+    content: 'Start of Div: ';
+    color: brown;
+}
+.div3>p::after{
+    content: ' -End of Div';
+    color: brown;
+}
+.div3>p{
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: rgb(142, 240, 150);
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}

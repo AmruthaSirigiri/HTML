@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+<body>
+    <video height="300" controls autoplay muted>
+        <source src="./video.mp4">
+    </video>
+    <audio controls autoplay muted>
+        <source src="">
+    </audio>
+    <iframe src="./HTML Task Day 5.pdf" frameborder="1" height="600" width="600"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_xtceKvlVYQ?si=-EQuxz1keBte76eP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <figure>
+        <img src="../Pink Purple.png" alt="shiro" width="300" height="200">
+        <figcaption>Pink Purple</figcaption>
+    </figure>
+    <!--picture is used to bring responsive images-->
+    <picture>
+        <source media="(min-width:992px)" srcset="../Pink Purple.png">
+        <source media="(min-width:768px)" srcset="../Pink Purple.png">
+        <source media="(min-width:480px)" srcset="../Pink Purple.png">
+        <img src="../Pink Purple.png" alt="">
+    </picture>
+</body>
+</html>

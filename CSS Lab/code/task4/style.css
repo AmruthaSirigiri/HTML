@@ -1,0 +1,44 @@
+.myclass1{
+    border: 2px solid red;
+    background-color: aliceblue;
+    color: red;
+    height: 100px;
+    padding: 20px;
+}
+.myclass2{
+    border: 2px solid red;
+    background-color: aliceblue;
+    color: green;
+    height: 3em;
+}
+.myclass3{
+    border: 2px solid red;
+    background-color: aliceblue;
+    color: blue;
+    height: 150px;
+    width: 250px;
+}
+.myclass4{
+    border: 2px solid red;
+    background-color: aliceblue;
+    color: blue;
+    height: 150px;
+    width: 250px;
+    margin: 1px;
+}
+.myclass5{
+    border: 2px solid red;
+    background-color: aliceblue;
+    color: blue;
+    height: 150px;
+    width: 280px;
+}
+.myclass6{
+    border: 2px solid red;
+    background-color: aliceblue;
+    color: blue;
+    height: 100px;
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+}

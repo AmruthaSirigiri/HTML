@@ -1,0 +1,31 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    /* position: static;/*not element to move
+    top: 30px; */
+    /* position: relative;
+    top: 100px;
+    left: 150px */
+    margin: 5px;
+    font-size: 32px;
+    color: white;
+    height: 500px;
+}
+.box3{
+    /* not give space absolute */
+    /* position: relative; 
+    left: 100px; */
+    /* fixed will not move */
+    position: fixed;
+    /* top: 0px; */
+    bottom: 0px;
+    right: 0px;
+    height: 100px;
+    border-radius: 50%;
+}
+.box2{
+    background-color: black;
+    position: sticky;
+    top: 50px;
+}

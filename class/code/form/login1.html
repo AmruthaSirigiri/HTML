@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="main.java">
+        <input type="text" placeholder="Enter name" value="Amrutha" readonly disabled><br>
+        <input type="number" placeholder="Enter age" min="18" max="50" required><br>
+        <input type="password" placeholder="Enter password" pattern="[A-Za-z]{3}" minlength="6" maxlength="12" required><br>
+        <!--regular expresstion cheet sheet -->
+
+        <!--Radio button--> 
+        <p>Please choose gender:</p>
+        <input type="radio" name="gender" id="m">
+        <label for="m">Male</label>
+        <input type="radio" name="gender" id="f">
+        <label for="f">Female</label>
+        <!--Create a radio button to choose branch in intermediate-->
+        <p>Please choose intermediate branch</p>
+        <input type="radio" name="branch" id="mpc">
+        <label for="mpc">MPC</label>
+        <input type="radio" name="branch" id="bipc">
+        <label for="bipc">BIPC</label>
+        <input type="radio" name="branch" id="cec">
+        <label for="cec">CEC</label>
+        <input type="radio" name="branch" id="mec">
+        <label for="mec">MEC</label>
+        <!--checkboxes usually used for multiple options-->
+        <p>Please choose the language known</p>
+        <input type="checkbox" name="lang" id="en">
+        <label for="en">English</label>
+        <input type="checkbox" name="lang" id="hi">
+        <label for="hi">Hindi</label>
+        <input type="checkbox" name="lang" id="te">
+        <label for="te">Telugu</label>
+        <input type="checkbox" name="lang" id="ma">
+        <label for="ma">Marathi</label>
+        <input type="checkbox" name="lang" id="kr">
+        <label for="kr">Korean</label><br>
+        <!--create a checkbox to select hobbies-->
+        <p>Please choose the hobbies</p>
+        <input type="checkbox" name="hob" id="s">
+        <label for="s">Sports</label>
+        <input type="checkbox" name="hob" id="mu">
+        <label for="mu">Music</label>
+        <input type="checkbox" name="hob" id="da">
+        <label for="da">Dance</label><br>
+        <!--Drop Downs-->
+        <p>Select the branch</p>
+        <select name="branch1" id="">
+            <optgroup label="ENGG">
+                <option value="EEE">EEE</option>
+                <option value="CSE">CSE</option>
+                <option value="ECE">ECE</option>
+                <option value="MECH">MECH</option>
+                <option value="AIML">AIML</option>
+            </optgroup>
+            <optgroup label="Degree">
+                <option value="bsc">BSC</option>
+                <option value="bca">BCA</option>
+                <option value="bcom">BCOM</option>
+            </optgroup>
+                <optgroup label="Masters">
+                <option value="mca">MCA</option>
+                <option value="mba">MAA</option>
+            </optgroup>
+        </select> <br>
+        <!--write a drop to choose vehicle for test drive-->
+        <select name="vehicle" id="" size="5">
+            <optgroup label="Two Wheeler">
+                <option value="honda">honda</option>
+                <option value="activa">activa</option>
+                <option value="TVS">TVS</option>
+                <option value="pleasure">Pleasure</option>
+                <option value="splender">Splender</option>
+            </optgroup>
+            <optgroup label="4 Wheeler">
+                <option value="innova">Innova</option>
+                <option value="toyota">Toyota</option>
+                <option value="swift">Swift</option>
+                <option value="audi">Audi</option>
+                <option value="BMW">BMW</option>
+            </optgroup>
+        </select><br>
+        <button>submit</button>
+    </form>
+</body>
+</html>

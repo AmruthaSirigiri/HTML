@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.con{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    gap:2em;
+}
+.box1{
+    text-shadow: none;
+}
+
+.box2{ 
+    text-shadow: 2px 2px 5px rgb(151, 141, 141);
+}
+.box3{
+    text-shadow: 2px 2px 2px rgb(200, 50, 50);
+}
+.box4{
+    font-size: xx-large;
+    text-shadow: 3px 3px 3px rgb(240, 10, 240);
+    color: white;
+}
+.box5{
+    font-size: xx-large;
+    background-color: gainsboro;
+    color:white;
+}

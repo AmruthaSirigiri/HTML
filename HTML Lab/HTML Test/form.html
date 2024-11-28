@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Tech Event Survey Form</h1>
+    <div>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="n">Name: </label>
+            <input type="text" name="n" id="n"><br> <br>
+            <label for="e">Email: </label>
+            <input type="email" name="e" id="e"><br> <br>
+            <label for="a">Age: </label>
+            <input type="number" name="a" id="a"><br><br>
+            <label for="g">Gender:</label><br>
+            <input type="radio" name="g" id="g">Male<br>
+            <input type="radio" name="g" id="g">Female<br><br>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Professional Information</legend>
+            <label for="d">Job Role: </label>
+            <select name="d" id="d">
+            <option value="d">Developer</option>
+            </select><br><br>
+            <label for="y">Year of Experience: </label>
+            <input type="range" name="y" id="y"> 0 years<br>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Interests</legend>            
+            <label for="ch">Area of Interests:</label><br>
+            <input type="checkbox" name="ch" id="ch"> AI<br>
+            <input type="checkbox" name="ch" id="ch"> Cloud Computing<br>
+            <input type="checkbox" name="ch" id="ch"> Data Science<br>
+            <input type="checkbox" name="ch" id="ch"> Cybersecurity<br><br>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Comments</legend>
+            <label for="s">Suggestions: </label><br>
+            <textarea name="s" id="s" placeholder="Share your feedback or sugestions..."></textarea><br><br>
+            <button>Submit Survey</button>
+        </fieldset>
+    </div>
+</body>
+</html>

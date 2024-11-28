@@ -1,0 +1,191 @@
+
+
+HTML stands for Hypertext Markup language. 
+GML  ---> SGML   ---> HTML .
+current version is HTML5
+Html consists of tag. there are two representation of tags
+<opentag>  , </closetag>
+html code will be between <html> and </html>
+html consists head and body
+head is used for meta data and body is used for actual website
+
+To get basic template we can use emmets --> !+enter or html:5+enter
+
+To comment something in HTML, 
+<!-- comment -->
+
+first code:
+<!--  This is my first HTML file  -->
+<!DOCTYPE html> <!-- this line means following document is a html document -->
+<html lang="en"> <!-- this is html open tag with an attribute lang with value en -->
+<head><!-- head starts -->
+    <meta charset="UTF-8"><!-- charcter set - unicode transmission format -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- viewport setting-->
+    <title>Document</title><!-- title will come on top (tab section)-->
+</head><!-- head is closed -->
+<body><!-- body open tag -->
+   hello world 
+</body><!-- body close tag -->
+</html><!-- html close tag -->
+=======================================
+Elements: elements are nothing but complete tag with its content i.e., open tag+content+close tag
+for eg:
+<h1>
+   hello
+</h1>
+Note: all elements needs not to be closed. some elements don't have any closing tag. they are called void elements or empty elements or self closing elements
+eg: <img src="" alt="" />,<br />,<hr />
+
+we can group the elements and make the groups as block or inline for styling
+  -- general grouping block element - div
+  -- general grouping inline element - span
+============================================
+Formatting Tags are used to format the texts such as making the text as bold,italic,highlight etc.., formatting tags are inline elements mostly
+
+1. b -- used to make text bold
+2. strong -- also used to make text bold but having higher impact to SEO since search engine understand b and strong differntly
+3. i -- used to make text italic
+4. em --also used to make text italic but having higher impact to SEO since search engine understand i and em differntly
+5. u -- used to make text underlined
+6. mark -- used to highlight the text
+7. del -- used to strike out a word/senetence but in perspective of search engine, it's deleted
+8. ins -- used to insert certain value in the place of del
+9. sub -- used to make value subscript
+10. sup -- used to make value superscript
+11. hr -- used to get horizontal line, 
+12. br -- used to break the lines
+13. pre -- used to make text appears as it is.
+14. code -- used to write any codes
+13. address -- used to assign the address.
+=========================================
+Tables are used to represent the data in rows and columns.
+table uses 'table' tag
+a table contains table row as 'tr' tag
+A tr may contain th(table head) or td(table data)
+th -- table head will be automatically middle and bold
+td- raw table data
+we can also use caption to put table a caption
+
+To combine rows, we can use rowspan attribute 
+To combine column, we can use colspan attribute
+=========================================
+lists are used to list of certain items.
+  eg: dropdown list, shopping list, kirana,voter,menu,order,students, expenses, employee, markslist, , contact list, attendance, course
+
+  Lists in HTML are three types
+  1. ordered List:
+  items in this lists are of specific order. it has a tag ol and each list item will be li. default type is numbers
+  <ol>
+    <li>raj</li>
+    <li>raman</li>
+    <li>rani</li>
+  </ol>
+  we can also give types of a, A, i, I for different orders
+
+  2. Unordered List: items in this list are of no order ,by default represented by bullet points. 
+  <ul>
+     <li>raj</li>
+    <li>raman</li>
+    <li>rani</li>
+  </ul> 
+  we can also give types such as circle,rectangle,none
+
+  one list can be inserted inside another link known as nested lists
+
+  3. Definition lists: Definition lists are used to define certain words,events,historical milestones
+  it is represented by 'dl' tag ,it also have dt(definition term) and dd(definition data).
+=========================================
+semantic elements are introduced in HTML by HTML5. These block elements does not create any impact to UI but using them search engine can understand your code effectively
+
+Eg: header, footer,main,nav,aside,section,article
+
+classes and ID: To identify an element , we can define an attribute class or id.  multiple elements may have same class name or for one elements, we can assign mutiple class names
+=========================================
+Forms are used to input the user's data/collect responses/login/signup etc..,
+form will be embraced by form tag with attributes such as 
+  -- action: path to which file form data to be submitted
+Form contains multiple inputs
+  input tag is used to collect inputs and it have following attributes
+    -- type -- contains type of the input
+    -- placeholder -- contains some dummy text to appear in input until user enters value. it helps user to find what to enter
+    --value -- we can also predefine some value using value attribute
+    -- name -- it contains the variable by which we submit input data
+    -- id -- used to identify the input uniquely
+
+instead of placeholder , we can use labels, label tag is used to make user identify what to enter and it can also connects with input by having input's id value in label's for.
+
+Different Types of inputs:
+we can use multiple types of inputs such as
+  -- text -- used for alphanumerical values
+  -- email -- used for email addresses
+  -- password -- used for secret info,
+  -- file -- used for uploading a file
+  -- button -- used to create a button
+  -- submit -- used to create a button that can submit the form
+  -- reset -- used to create a button that can reset the form
+  -- date -- used to select a date from calender
+  -- datetime-local -- used to select date with time
+  -- time -- used to select time
+  -- month -- used to select month
+  -- search -- used for searching
+  -- url -- used to collect a link
+  -- range -- used to select a range
+  -- number -- used to enter a numerical value
+  -- hidden -- used to make the textbox which can be submitted but hidden
+  -- color  -- used to select a particular color
+
+<!-- create a simple login form with labels and name attribute  -->
+========================================
+Radio Buttons: we will use radio buttons when we have to take any one single choice
+we can insert them using input type 'radio', every radio button must have name and label connected
+All radio buttons of similar use must have same have
+ <input type="radio" name="gender" id="m">
+     <label for="m">Male</label>
+     <input type="radio" name="gender" id="f">
+     <label for="f">Female</label>
+Check boxes: we can use check boxes by input type 'check' and we use them when we need to select multiple options
+labels should be connected and all checks of similar cause must have same name
+ <input type="checkbox" name="lang" id="en">
+       <label for="en">English</label>
+        <input type="checkbox" name="lang" id="hi">
+       <label for="hi">Hindi</label>
+        <input type="checkbox" name="lang" id="te">
+       <label for="te">Telugu</label>
+        <input type="checkbox" name="lang" id="mt">
+       <label for="mt">Marathi</label>
+        <input type="checkbox" name="lang" id="kr">
+       <label for="kr">Korean</label>
+we can insert dropdown using select element and each option will have option tag with 'value' attribute
+if we have to select multiple we need to add multiple at the end of attributes of select
+
+we can group option using optgroup with label
+ <select name="branch" size="8" id="" multiple>
+            <optgroup label="ENGG">
+               <option value="EEE">EEE</option>
+            <option value="cse">CSE</option>
+            <option value="ece">ECE</option>
+            <option value="aiml">AIML</option>
+            <option value="mech">Mech</option>
+            </optgroup>
+            <optgroup label="Degree">
+             <option value="bsc">BSC</option>
+              <option value="">BCA</option>
+              <option value="">BCOM</option>
+            </optgroup>
+            <optgroup label="MASTERS">
+             <option value="">MCA</option>
+             <option value="">MBA</option>
+            </optgroup>
+           
+        </select>
+
+we can do validation in HTML form using
+required,
+readonly,
+diabled,
+max,
+min,
+maxlength,
+minlength,
+pattern - regularExpression
+=====================================================
