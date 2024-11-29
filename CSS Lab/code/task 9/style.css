@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow: 2px 3px 2px #b3a7a7;
+}
+.left{
+    padding-left: 0px;
+    margin-right: 150px;
+}
+.form{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 30px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
